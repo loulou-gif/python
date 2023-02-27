@@ -1,0 +1,31 @@
+le but ici est de concevoir un script qui demande à l'utilisateur de se connecter ou s'identifier.
+1) cas 1
+l'utilisateur essayera de se connecter et devra confirmer sa présence pour se jour la
+son nom devra donc être affiché sur la liste de classe de se jour spécifiquement ensuite l'utilisateur devra se déconnecter de la page.
+2)cas 2 
+l'utilisateur n'a pas de compte? on concidère qu'il est nouveau dans cette classe il devra donc chercher en premier lieu à s'identifier.
+après son identification réussi, il devra donc se connecter pour emmager à son toure et remplire à ce moment précis les mêmes conditions 
+que celle du cas 1
+
+
+DE MANIERE TECHNIQUE
+
+1) cas un 
+1.1) création de l'environnement de connection
+l'utilisateur devra avoir deux choix bien précis qui sont:
+
+1-connexion 
+2-identification
+
+dans ce cas c'est la connexion qui nous intérresse.
+
+l'utilisateur devra donc rentrer des info tel que nom, prénom ou pseudo cela dépendra de nous
+après cela il rentrera un mot de passe.
+le programme aura à parcourire une liste de nom d'utilisateur et une liste de mots de passe si les deux concordes alors l'utilisateur
+sera donc accepté à se connecter. sinon il sera demandé à l'utilisateur de soit reprendre le procéssus ou de s'identifier.
+
+2)cas deux
+2.1)création de l'environnement de renseignement
+
+dans ce cas la, l'utilisateur devra rentrer ces informations tel que nom, prénom pseudo et mot de passe
+ces infos seront donc stocké dans un fichier txt pour être ensuite demandé lors de la connexion.
