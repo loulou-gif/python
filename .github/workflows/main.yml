@@ -20,7 +20,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username:  kadmiel
-          password: ${{ secrets.kadmiel }}
+          password: ${{ kadmiel }}
       -
         name: Build and push
         uses: docker/build-push-action@v4
